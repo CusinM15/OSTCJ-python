@@ -50,7 +50,7 @@
     Nariši 5-krako zvezdo (pentagram) z uporabo pravilnega 5-kotnika.
 
 15. **Cvet**  
-    Nariši cvet z 8 cvetnimi listi, kjer je vsak list sestavljen iz dveh lokov.
+    Nariši cvet z 8 cvetnimi listi, nariši mnogokotnik in poveži središče z vsakim ogliščem, za cvet dodaj krog in se malo potrudi z barvami.
 
 16. **Šahovnica**  
     Nariši preprosto šahovnico 4x4 s kvadratki velikosti 30x30.
