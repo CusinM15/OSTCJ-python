@@ -10,6 +10,7 @@ def narisi_pike_krog(zelva, r, n):
     # vzemimo da je naše izhodišče naše koordinato izhodišče, ima koordinati (0, 0)
     # ker vemo da so točke na krožnici enako oddaljene oz središča bomo vsako točko risali
     # iz središča in se tja tudi vračali
+    koordinate_tock = list() # vrnili bomo seznam koordinat n-kotnika
     if n <= 0:
         print('Nič oziroma negativno število točk ne moremo izpidati!')
     else:
@@ -18,8 +19,10 @@ def narisi_pike_krog(zelva, r, n):
             zelva.penup() # dvignemo pero
             zelva.fd(r) # premaknemo na željeni prostor
             zelva.dot()
+            koordinate_tock.append(zelva.pos())
             zelva.bk(r)
             zelva.lt(kot)
+        return koordinate_tock
 
 if __name__ == '__main__':
     zelva1 = turtle.Turtle()
