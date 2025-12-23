@@ -63,7 +63,7 @@
     Ustvari animacijo, kjer se krog izmenično povečuje in zmanjšuje 5-krat.
 
 19. **Spremljaj miško**  
-    Naredi program, kjer želva risanje sledi gibanju miškinega kazalca.
+    Naredi program, kjer želva risanje sledi gibanju miškinega klika.
 
 ## Rekurzija (končna naloga)
 20. **Puhasto drevo**  
